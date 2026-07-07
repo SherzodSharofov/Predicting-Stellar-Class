@@ -1,5 +1,8 @@
-├── lgbm_with_optuna.ipynb    # Main notebook (EDA, training, evaluation, submission)
-├── lgbm_best_model.joblib    # Trained LightGBM pipeline
-├── ctbc_best_model.joblib    # Trained CatBoost pipeline
-├── lgbm_with_optuna.db       # Optuna study (LGBM trials)
-└── ctbc_with_optuna.db       # Optuna study (CTBC trials)
+    Predicting-Stellar-Class/
+    ├── README.md                  # project description
+    ├── data/                      # train and test data
+    ├── lgbm_with_optuna.ipynb     # EDA, model training and hyperparameter optimization with Optuna
+    ├── lgbm_with_optuna.db        # SQLite database for saving LGBM Optuna optimization progress
+    ├── ctbc_with_optuna.db        # SQLite database for saving CatBoost Optuna optimization progress
+    ├── lgbm_best_model.joblib     # saved LightGBM model with pipeline
+    └── ctbc_best_model.joblib     # saved CatBoost model with pipeline
