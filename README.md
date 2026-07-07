@@ -2,7 +2,6 @@
 
 ```
 Predicting-Stellar-Class/
-├── README.md                      # project description
 ├── lgbm_with_optuna.ipynb         # EDA, model training and hyperparameter optimization with Optuna
 ├── lgbm_with_optuna.db            # SQLite database for saving LGBM Optuna optimization progress
 ├── ctbc_with_optuna.db            # SQLite database for saving CatBoost Optuna optimization progress
